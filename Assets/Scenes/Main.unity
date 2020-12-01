@@ -561,7 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerMoveSpeed: 3
   playerSc: {fileID: 630353485}
-  codemat: {fileID: 0}
+  codemat: {fileID: 2100000, guid: 38de1995027430749afdce97f123644a, type: 2}
   MaxCodeCount: 500
   CodeLength: 100
 --- !u!114 &1241367376
