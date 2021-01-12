@@ -65,10 +65,10 @@ public class SetPosition : MonoBehaviour
     private void decideTargetPotision()
     {
         // まだ目的地についてなかったら（移動中なら）目的地を変えない
-        //if (!isReachTargetPosition)
-        //{
-        //    return;
-        //}
+        if (!isReachTargetPosition)
+        {
+            return;
+        }
         // 目的地に着いていたら目的地を再設定する
         targetPosition = new Vector3(Random.Range(X_MIN_MOVE_RANGE, X_MAX_MOVE_RANGE), Random.Range(Y_MIN_MOVE_RANGE, Y_MAX_MOVE_RANGE), 0);
         isReachTargetPosition = false;

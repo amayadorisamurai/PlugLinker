@@ -3,28 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class SeneJump2 : MonoBehaviour
+public class Reset : MonoBehaviour
 {
 
-   
-
-
-    // Start is called before the first frame update
+    // Use this for initialization
     void Start()
     {
-      
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.R))
+        {
+            SceneManager.LoadScene("Game");
+        }
     }
 
-    public void PushButton()
+    /*public void PushButton()
     {
-        
         SceneManager.LoadScene("Game");
-    }
+    }*/
 }
