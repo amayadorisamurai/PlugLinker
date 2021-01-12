@@ -11,7 +11,7 @@ public class CodeLine : MonoBehaviour
     int iMaxCount;
     int Distributor = 0;
     bool bCodeLong = false;
-    int iMaxCodeLength;
+    int iMaxCodeLength=1;
     float fCodeLength = 0;
     player PSc;
     Material mat;
