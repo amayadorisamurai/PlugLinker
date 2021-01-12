@@ -3141,7 +3141,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: def4b513da7a49e4aaf291c66f92483b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6439,7 +6439,7 @@ MonoBehaviour:
   SPEED: {x: 0.05, y: 0.05}
   MAX_X_SPEED: 3
   MAX_Y_SPEED: 3
-  Goal: {fileID: 2095916276}
+  Goal: {fileID: 0}
   Speed: {x: 0.1, y: 0.1}
 --- !u!212 &1654655729
 SpriteRenderer:
@@ -7525,12 +7525,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
---- !u!1 &2095916276 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6447734343482784044, guid: 6d08b38264f318c498e5d85e2bdf6dfe,
-    type: 3}
-  m_PrefabInstance: {fileID: 2137031373}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2128195724
 GameObject:
   m_ObjectHideFlags: 0
@@ -7649,7 +7643,7 @@ PrefabInstance:
     - target: {fileID: 6447734343482783954, guid: 6d08b38264f318c498e5d85e2bdf6dfe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.8
+      value: 9.88
       objectReference: {fileID: 0}
     - target: {fileID: 6447734343482783954, guid: 6d08b38264f318c498e5d85e2bdf6dfe,
         type: 3}
@@ -7704,7 +7698,7 @@ PrefabInstance:
     - target: {fileID: 6447734343482783955, guid: 6d08b38264f318c498e5d85e2bdf6dfe,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6447734343482784044, guid: 6d08b38264f318c498e5d85e2bdf6dfe,
         type: 3}
