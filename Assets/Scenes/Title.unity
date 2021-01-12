@@ -199,9 +199,15 @@ GameObject:
   - component: {fileID: 329058493}
   - component: {fileID: 329058492}
   - component: {fileID: 329058491}
+<<<<<<< HEAD
   - component: {fileID: 329058494}
+<<<<<<< HEAD
+=======
   - component: {fileID: 329058495}
   - component: {fileID: 329058496}
+>>>>>>> 02461620724b05e00ea6335c69397382d026a1a4
+=======
+>>>>>>> parent of db57d8c... a
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -329,14 +335,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329058489}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!95 &329058494
+Animator:
+  serializedVersion: 3
+=======
 --- !u!82 &329058494
 AudioSource:
+>>>>>>> 02461620724b05e00ea6335c69397382d026a1a4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329058489}
   m_Enabled: 1
+<<<<<<< HEAD
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5821c0966960baa42a8d9feff9ba0c6c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+=======
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8e140f763d866094b88b0e36676948a8, type: 3}
@@ -450,6 +475,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound1: {fileID: 8300000, guid: 8e140f763d866094b88b0e36676948a8, type: 3}
+>>>>>>> 02461620724b05e00ea6335c69397382d026a1a4
+=======
+>>>>>>> parent of db57d8c... a
 --- !u!1 &408894942
 GameObject:
   m_ObjectHideFlags: 0
