@@ -199,18 +199,9 @@ GameObject:
   - component: {fileID: 329058493}
   - component: {fileID: 329058492}
   - component: {fileID: 329058491}
-<<<<<<< HEAD
   - component: {fileID: 329058494}
-<<<<<<< HEAD
-=======
   - component: {fileID: 329058495}
   - component: {fileID: 329058496}
->>>>>>> 02461620724b05e00ea6335c69397382d026a1a4
-<<<<<<< HEAD
-=======
->>>>>>> parent of db57d8c... a
-=======
->>>>>>> dff7d2116d62aaf025437a004449b6c7c38fff48
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -261,7 +252,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 3
+  m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -338,36 +329,14 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329058489}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dff7d2116d62aaf025437a004449b6c7c38fff48
---- !u!95 &329058494
-Animator:
-  serializedVersion: 3
-=======
 --- !u!82 &329058494
 AudioSource:
->>>>>>> 02461620724b05e00ea6335c69397382d026a1a4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329058489}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5821c0966960baa42a8d9feff9ba0c6c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
-=======
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8e140f763d866094b88b0e36676948a8, type: 3}
@@ -481,12 +450,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound1: {fileID: 8300000, guid: 8e140f763d866094b88b0e36676948a8, type: 3}
->>>>>>> 02461620724b05e00ea6335c69397382d026a1a4
-<<<<<<< HEAD
-=======
->>>>>>> parent of db57d8c... a
-=======
->>>>>>> dff7d2116d62aaf025437a004449b6c7c38fff48
 --- !u!1 &408894942
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,7 +640,6 @@ GameObject:
   - component: {fileID: 507763364}
   - component: {fileID: 507763365}
   - component: {fileID: 507763366}
-  - component: {fileID: 507763367}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -870,18 +832,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &507763367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507763360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d38f38cf2697e70409d9475e6d544f80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &526902061
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,7 +918,6 @@ GameObject:
   - component: {fileID: 651078728}
   - component: {fileID: 651078727}
   - component: {fileID: 651078726}
-  - component: {fileID: 651078729}
   m_Layer: 5
   m_Name: ManualButton
   m_TagString: Untagged
@@ -1014,12 +963,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 1
+    m_Mode: 3
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 3
+  m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1096,25 +1045,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651078724}
   m_CullTransparentMesh: 0
---- !u!95 &651078729
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651078724}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5821c0966960baa42a8d9feff9ba0c6c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1008444435
 GameObject:
   m_ObjectHideFlags: 0
