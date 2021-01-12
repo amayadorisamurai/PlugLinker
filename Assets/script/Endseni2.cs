@@ -7,7 +7,7 @@ public class Endseni2 : MonoBehaviour
 {
     public void OnStartButtonClicked()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Game");
     }
     // Start is called before the first frame update
     void Start()

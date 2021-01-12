@@ -7,7 +7,11 @@ using UnityEngine.SceneManagement;
 public class SeneJump2 : MonoBehaviour
 {
 
-   
+    public void OnStartButtonClicked()
+    {
+        SceneManager.LoadScene("Game");
+    }
+
 
 
     // Start is called before the first frame update
@@ -21,7 +25,7 @@ public class SeneJump2 : MonoBehaviour
     {
         
     }
-
+    
     public void PushButton()
     {
         

@@ -3,8 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SeneJump3 : MonoBehaviour
+public class SeneJump : MonoBehaviour
 {
+
+    public void OnStartButtonClicked()
+    {
+        SceneManager.LoadScene("Manual");
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +21,9 @@ public class SeneJump3 : MonoBehaviour
     {
         
     }
-
+    
     public void PushButton()
     {
-        SceneManager.LoadScene("Title");
+        SceneManager.LoadScene("Manual");
     }
 }

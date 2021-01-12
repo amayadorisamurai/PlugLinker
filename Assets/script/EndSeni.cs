@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class EndSeni : MonoBehaviour
 {
     public void OnStartButtonClicked(){
-        SceneManager.LoadScene("Title");
+        SceneManager.LoadScene("TTTitle");
     }
     // Start is called before the first frame update
     void Start()
